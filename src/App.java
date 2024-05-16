@@ -10,10 +10,10 @@ public class App {
         int opcao;
 
         do {
-            System.out.println("Selecione uma opção no menu: \n" + "1: Efetuar ligação \n"
-                    + "2: Atender ligação \n" + "3: Iniciar correio de voz \n" + "4: Selecionar música \n"
-                    + "5: Tocar música \n" + "6: Pausar música \n" + "7: Exibir página no navegador \n"
-                    + "8: Abrir nova aba no navegador \n" + "9: Atualizar página no navegador \n" + "0: Desligar \n"
+            System.out.println("Selecione uma opção no menu: \n" + "1: Fazer ligação \n"
+                    + "2: Atender ligação \n" + "3: Ativar correio de voz \n" + "4: Selecionar música \n"
+                    + "5: Tocar a música \n" + "6: Pausar a música \n" + "7: Exibir página \n"
+                    + "8: Abrir nova aba no navegador \n" + "9: Atualizar página \n" + "0: Desligar \n"
                     + "Digite a opção:");
             opcao = sc.nextInt();
             switch (opcao) {
